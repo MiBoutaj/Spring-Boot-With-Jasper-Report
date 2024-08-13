@@ -1,9 +1,14 @@
-spring:
-  application:
-   name: Spring-Boot-With-Jasper-Report
+application:
+  title: spring boot with jasper report
+  version: v1.0.0
+---
 server:
   port: 8090
-
+---
 springdoc:
   api-docs:
     path: /api-jasper
+---
+generated:
+  doc:
+    student_list: classpath:studentList.jrxml
