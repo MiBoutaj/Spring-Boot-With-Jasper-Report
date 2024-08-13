@@ -1,0 +1,9 @@
+spring:
+  application:
+   name: Spring-Boot-With-Jasper-Report
+server:
+  port: 8090
+
+springdoc:
+  api-docs:
+    path: /api-jasper
